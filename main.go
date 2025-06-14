@@ -16,6 +16,16 @@ func (r Rectangle) Area() float64 {
 
 func main() {
 	rect := Rectangle{Width: 10, Height: 20}
+	// First itteration
+	fmt.Println(rect.Width)
+	fmt.Println(rect.Height)
+	fmt.Println(rect.Area())
+
+	// Second itteration
+	fmt.Println("Enter Witdth: ")
+	fmt.Scan(&rect.Width)
+	fmt.Println("Enter Height: ")
+	fmt.Scan(&rect.Height)
 
 	fmt.Println(rect.Width)
 	fmt.Println(rect.Height)
